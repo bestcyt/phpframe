@@ -1,0 +1,29 @@
+{
+    "name": "sss/phpframe",
+    "description": "A Framework for PHP",
+    "type": "project",
+    "require":{
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fw\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chencc",
+            "email": "ranmiaozai@126.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
